@@ -1,6 +1,6 @@
 package week02;
 
-import java.sql.SQLOutput;
+
 
 public class Typecasting {
     public static void main(String[] args) {
