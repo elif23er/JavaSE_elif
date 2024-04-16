@@ -78,7 +78,7 @@ public class StreamTerminalOperations {
 
          // forEach pipeline  deki terminal işlemidir
         Stream<String> s01 =Stream.of("Monkey","Gorilla","Chimp");
-        s01.forEach(System.out::println);
+        //s01.forEach(System.out::println);
 
         List<String> list01 =new ArrayList<>();
         s01.forEach((str )->{
