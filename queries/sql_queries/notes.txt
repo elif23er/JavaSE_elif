@@ -1,0 +1,8 @@
+Bir tablo nasıl görüntülenir;
+1- database'ı aç (postgres)
+2- Schemas'ı aç
+3-Tables'ı aç
+4-Görüntülemek istediğim tablo burada görünmeli
+4.1- Tabloyu açmakl ve içeriğe erişmek için ;
+     ->> Tabloya sağ click ,View/Edit Data ->All Rows
+     * ALL anlamına gelir her şeyi seç anlamına gelir
