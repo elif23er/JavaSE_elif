@@ -5,11 +5,7 @@ import java.util.stream.Stream;
 
 public class Students {
     public static void main(String[] args) {
-
-       String name;
-       String surname;
-       String grade;
-
+   int sayi = 3;
 
 
     }
