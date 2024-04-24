@@ -173,12 +173,29 @@ SELECT product_id
 	WHERE quantity >100;	
 );
 
-/*SUPDATE public.orders 
+/*UPDATE public.orders 
 SET quantity = 555
 WHERE  order_id =8;*/
 
+SELECT product_name 
+FROM products 
+WHERE product_id= ALL(
+SELECT product_id
+	FROM orders
+	WHERE quantity >10
+);
+--Alt sorgu değerlerinin TÜMÜ(ALL) koşulu karşılıyorsa doğru(true)değerini döndürür
+--Aksi takdirde false döndürür.SELECT WHERE veHAVİNG ifadeleriylebirlikte kullanılır
 
-
+--CASE Expression 
+SELECT customer_name
+CASE
+WHEN customer_id <10 THEN 'KÜÇÜKTÜR ONDAN '
+WHEN customer_id <50 THEN 'BÜYÜKTÜR ELLİDEN'
+ELSE 
+'Farklı aralıktadır.'
+END
+FROM customers;
 
 
 
